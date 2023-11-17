@@ -1,0 +1,2 @@
+если в roung не указан ndigits, то это int, а если указан, то float
+max
