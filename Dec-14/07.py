@@ -1,0 +1,7 @@
+my_str = input()
+# res = my_str.removesuffix('a')
+# print(res)
+# res1 = my_str.removeprefix('a')
+# print(res1)
+res = my_str.replace(',', '.')
+print(res)
