@@ -40,7 +40,8 @@ def get_employee_id(full_name: str) -> int:
     except ValueError:
         return -1
     for person in database:
-        if first_name
+        if person["firstName"] == first_name and person["lastName"] == last_name:
+            
 
 
         
