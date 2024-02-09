@@ -22,8 +22,10 @@ class Dog:
 
 class  DogoFly (Fly, Dog):
     def __init__(self, speed, name):
-        super(Fly, self).__init__(speed)
-        super(Fly, self).__init__(name)
+        # super(Fly, self).__init__(speed)
+        Fly.__init__(self, speed)
+        Dog.__init__(self, name)
+        # super(Fly, self).__init__(name)
 
     def say(self):
         # return super().say()
