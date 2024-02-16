@@ -20,3 +20,6 @@ def count_words(text):
 
 lyrics = "все без тебя не так, лечу к тебе я словно комета, и даже под дулом пистолета я найду тебя"
 print(count_words(lyrics))
+
+# True = False
+# lru cache 
